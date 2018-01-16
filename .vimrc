@@ -648,3 +648,4 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+let g:go_version_warning = 0

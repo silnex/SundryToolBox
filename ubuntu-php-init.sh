@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 sudo apt-get update && \
 sudo apt -y install software-properties-common && \
@@ -13,4 +12,3 @@ sudo rm composer-setup.php
 # sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb && \
 # sudo rm mysql-apt-config_0.8.15-1_all.deb && \
 # sudo apt update
-```

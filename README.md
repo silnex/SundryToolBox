@@ -12,3 +12,6 @@ Sundry PHP Tools
 ### /check_has_post.php
   Someone visit my old blog post.  
   If new blog has the post same thing then redirect to new blog post
+
+## ubuntu-php-init.sh
+  php 7.4 and composer install script for laravel

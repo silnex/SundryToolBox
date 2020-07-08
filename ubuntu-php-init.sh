@@ -10,7 +10,9 @@ echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc && \
 echo "alias artisan='php artisan'" >> ~/.bashrc && \
 sudo chown -R $USER:$USER ~/.composer && \
 source ~/.bashrc
-# wget -c http://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb && \
-# sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb && \
-# sudo rm mysql-apt-config_0.8.15-1_all.deb && \
-# sudo apt update
+# mysql
+wget -c http://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb && \
+sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb && \
+sudo rm mysql-apt-config_0.8.15-1_all.deb && \
+sudo apt update && \
+sudo apt-get install mysql-server
